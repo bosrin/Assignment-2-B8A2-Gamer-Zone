@@ -335,7 +335,75 @@ font-weight: 400px;
    .anywhere{
     flex-direction:column ;
    }
+   .online-games img {
+    width: 9
+    0%;
+    margin-left: 0;
+
+   }
+   .play-instantly-img1{
+    width: 100%;
+    margin-left: 0;
+   }
+   .play-instantly-img2{
+    position: static;
+    max-width: 300px;
+
+   }
+   .anywhere-img1{
+
+    width: 100%;
+    margin-left: 0;
+   }
+   .anywhere-img2{
+    position: static;
+    max-width: 300px;
+
+   }
     
+}
+/* Careers */
+.Careers{
+    background-color: #F948B2;
+    color: #FFF;
+    padding: 20px;
+}
+.Careers h2 {
+    margin-left: 1000px;
+    font-size: 48px;
+}
+.Careers p {
+    margin-left: 800px;
+    font-size: 18px;
+
+font-weight: 400;
+}
+.items-careers{
+    background-color: #534C64;
+}
+.items-careers h2{
+    color: #FFF;
+
+   font-size: 45px;
+
+   font-weight: 700;
+
+}
+.logo{
+    color: #FF42A5 ;
+}
+.items-careers img{
+    padding-top:50px;
+    margin-left: 30px;
+}
+.Careers1{
+    display: inline-flex;
+padding: 10px;
+align-items: flex-start;
+gap: 60px;
+
+margin-left: 700px;
+
 }
 /* tablet or medium  */
 @media screen and (min-width:576px) and (max-width:960) {
@@ -345,7 +413,9 @@ font-weight: 400px;
    .we-are-gamer,
    .online-games,
    .game-Play-Instantly,
-   .anywhere{
+   .anywhere,
+   .Careers,
+   .items-careers{
         flex-direction:column ;
        } 
 }
