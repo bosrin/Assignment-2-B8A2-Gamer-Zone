@@ -1,0 +1,353 @@
+/* work sans font from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700;800&display=swap');
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* header style */
+header{
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    padding: 100px ;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.section-title{
+    color: #0B0223;
+    font-size: 45px;
+    font-weight: 700;
+    margin-right: 1000px;
+   
+}
+
+.Gamer{
+    color: #FF42A5 ;
+}
+.Frame{
+    width: 86.041px;
+    height: 40px;
+    margin-left: 200px;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+   
+}
+
+nav li{
+    list-style: none;
+    margin-right: 50px;
+    font-weight: 200;
+    font-size: 1rem;
+   
+}
+nav li a {
+    text-decoration: none;
+    color: #424242;
+    
+    
+}
+nav button{
+    width: 262px;
+    height: 56px;
+    gap: 20px;
+    border-radius: 8px;
+   background: rgba(11, 2, 35, 0.10);
+   padding: 15px 20px;
+   border: none;
+
+}
+.fa-youtube
+.fa-tiktok{
+    width: 30px;
+    height: 15px;
+    font-size: 25px;
+    background: transparent;
+    margin: 0;
+    color: #d66161;
+}
+.fa-tiktok{
+    width: 20px;
+    color: #000;
+    
+}
+
+
+    
+/* game zone style */
+
+.game-zone-content{
+    width: 701px;
+     height: 500px;
+     margin-left: 200px;
+    background-color:  linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
+} 
+
+.game-zone-content h1{
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 600;
+    margin-top: 150px;
+
+}
+
+.game-zone-content h2{
+   font-size: 95px;
+    font-weight: 800;
+
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.Sign{
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+     gap: 10px;
+     background: #FF42A5;
+     border-radius: 48px;
+     color: #FFF;
+
+     font-size: 20px;
+     font-weight: 600;
+
+     text-transform: uppercase;
+
+}
+.Go-Rogue{
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: #4EC5F7;
+    color: #FFF;
+   font-size: 20px;
+   font-weight: 600;
+   text-transform: uppercase;
+    
+
+}
+.feature{
+    margin-top:130px ;
+    display: flex;
+    
+}
+.feature-img img {
+    height: 80%;
+    margin-right: 900px;
+
+}
+/* we-are-gamer */
+
+.we-are-gamer{
+    width: 1920px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+.play-images{
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    margin-left: 200px;
+    
+}
+.play-game{
+    padding-left:70px;
+    padding-right: 70px;
+    
+}
+.game-title{
+    text-align: right;
+    font-size: 48px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;}
+    .text-light-gray{
+        color: #534C64;
+        text-align: right;
+        font-size: 18px;
+        font-weight: 400;
+        
+    }
+    .btn-primary{
+        display: flex;
+        padding: 21px 40px;
+       align-items: center;
+       margin-left: 300px;
+           gap: 10px;
+        border-radius: 48px;
+        background: #FF42A5 ;
+        color: #fff;
+        font-size: 20px;
+      
+       font-weight: 600;
+    
+    
+    }
+    /* Funny-Videos-online */
+.Funny-Videos-online{
+    margin-left: 200px;
+    
+    margin-top: 300px;
+    display: flex;
+    
+    width: 342px;
+    height: 400px;
+    gap: 20px;
+}
+
+.game-section {
+    display: flex;
+    justify-content: center;
+    text-align: top;
+   
+    color: #0B0223;
+     font-size: 48px;
+      font-weight: 700;
+}
+.Funny-Videos{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 48px;
+font-weight: 700;
+}
+ /* 
+.online-games p {
+    color: #534C64;
+    margin-left: 600px;
+     font-size: 20px;
+     font-weight: 500;
+     line-height: 30px; 
+} 
+.online-games h1  .Funny-Videos{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+} */
+
+/* Play Instantly */
+.game-Play-Instantly{
+    padding: 50px 50px 50px 50px;
+}
+.no-download{
+    margin-right: 1500px;
+    margin-top: 300px;
+    text-align: right;
+font-size: 48px;
+font-weight: 700;
+line-height: 60px; 
+color: #0B0223;
+}
+.instantly{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.text-light-gray-1{
+    color: #534C64;
+text-align: right;
+margin-right: 1500px;
+font-size: 18px;
+font-weight: 400;
+}
+
+
+.play-instantly-img1{
+    width: 50%;
+    margin-left: 1000px;
+   
+   
+}
+.play-instantly-img2{
+    width: 20%;
+    position: absolute;
+    left: 35%;
+    margin-top: 25%;
+   
+    
+}
+/*  Play Games Online Anywhere */
+.anywhere{
+    color: #000;
+    
+}
+.Play-Games-Online-Anywhere{
+    margin-left: 1500px;
+    margin-right: 500px;
+    padding-top: 60px;
+    margin-top: 60px;
+}
+.anytime-game{
+   
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+.text-light-gray-2{
+    color: #534C64;
+text-align: right;
+margin-left: 500px;
+margin-right: 500px;
+padding-top: 20px;
+font-size: 18px;
+font-weight: 400px;
+}
+.anywhere-img1{
+    width: 50%;
+    margin-left: 100px;
+    padding-bottom: 80px;
+}
+.anywhere-img2{
+    width: 20%;
+    position: absolute;
+    right: 40%;
+    margin-top: 20%;
+}
+/* responsive media quer */
+/* mobile */
+@media screen and (max-width:576px) {
+    header{
+        padding: 10px;
+    }
+   nav,
+   .feature,
+   .we-are-gamer,
+   .online-games,
+   .game-Play-Instantly,
+   .anywhere{
+    flex-direction:column ;
+   }
+    
+}
+/* tablet or medium  */
+@media screen and (min-width:576px) and (max-width:960) {
+   
+    nav,
+    .feature,
+   .we-are-gamer,
+   .online-games,
+   .game-Play-Instantly,
+   .anywhere{
+        flex-direction:column ;
+       } 
+}
+
+
